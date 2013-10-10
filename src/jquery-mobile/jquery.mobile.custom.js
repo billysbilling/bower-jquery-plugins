@@ -19,7 +19,8 @@
 		// Browser globals
 		factory( root.jQuery, root, doc );
 	}
-}( this, document, function ( jQuery, window, document, undefined ) {
+//[sebastianseilund] Changed `this` to `window` to support modules
+}( window, document, function ( jQuery, window, document, undefined ) {
 // This plugin is an experiment for abstracting away the touch and mouse
 // events so that developers don't have to worry about which method of input
 // the device their document is loaded on supports.

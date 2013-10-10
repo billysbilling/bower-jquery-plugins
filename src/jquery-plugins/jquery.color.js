@@ -660,4 +660,5 @@ colors = jQuery.Color.names = {
 	_default: "#ffffff"
 };
 
-})( jQuery );
+//[sebastianseilund] Added `window.` support modules
+})( window.jQuery );

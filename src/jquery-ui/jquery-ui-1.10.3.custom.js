@@ -3,6 +3,9 @@
 * Includes: jquery.ui.core.js, jquery.ui.widget.js, jquery.ui.mouse.js, jquery.ui.position.js, jquery.ui.draggable.js, jquery.ui.droppable.js
 * Copyright 2013 jQuery Foundation and other contributors Licensed MIT */
 
+//[sebastianseilund] Added this line to support modules
+var jQuery = window.jQuery;
+
 (function( $, undefined ) {
 
 var uuid = 0,

@@ -35,6 +35,9 @@
  *
 */
 
+//[sebastianseilund] Added this line to support modules
+var jQuery = window.jQuery;
+
 // t: current time, b: begInnIng value, c: change In value, d: duration
 jQuery.easing['jswing'] = jQuery.easing['swing'];
 

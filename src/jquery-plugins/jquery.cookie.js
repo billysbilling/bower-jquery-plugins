@@ -11,7 +11,8 @@
 		define(['jquery'], factory);
 	} else {
 		// Browser globals.
-		factory(jQuery);
+        //[sebastianseilund] Added `window.` support modules
+		factory(window.jQuery);
 	}
 }(function ($) {
 
