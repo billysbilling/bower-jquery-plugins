@@ -7,7 +7,7 @@
   ],
   "description": "A collection of jQuery plugins that we use for our webapps in Billy's Billing",
   "main": "src/index.js",
-  "billyBuilder": {
+  "billy-builder": {
     "include": "src"
   },
   "license": "MIT",
