@@ -1,3 +1,5 @@
+require('jquery');
+
 require('./jquery-mobile/jquery.mobile.custom');
 require('./jquery-plugins/jquery.color');
 require('./jquery-plugins/jquery.cookie');
